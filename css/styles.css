@@ -1,0 +1,17 @@
+body{
+    background-image: url("../img/hands-with-pencil-and-ruler.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../fonts/dropify.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dropify.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dropify.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/dropify.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/dropify.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  #drop{
+    font-family: 'MyWebFont', Fallback, sans-serif;
+  }

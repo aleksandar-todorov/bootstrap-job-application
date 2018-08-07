@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+    <link rel="stylesheet" href="css/dropify.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron w-75 bg-info mx-auto mt-4">
+            <h3 class="font-weight-bold text-center text-white">JOB APPLICATION</h3>
+            <h6 class="font-italic font-weight-bold text-center text-white">WE ARE LOOKING FOR SOMEONE LIKE YOU!</h6>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="card">
+                    <div class="card-header bg-info" id="headingOne">
+                        <h5 class="mb-0 ">
+                            <button class="btn btn-link text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Enter your data
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <p>First Name</p>
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="form-group">
+                                    <p>Last Name</p>
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                            </form>
+                            <div class="row">
+                                <div class="col col-lg-4">
+                                    <a id="fbButton" class="btn btn-block btn-facebook btn-sm text-white">
+                                        <span class="fab fa-facebook"></span> Sign up with Facebook
+                                    </a>
+                                </div>
+                                <div class="col col-lg-4">
+                                    <a id="GooButton" class="btn btn-block btn-google btn-sm text-white ">
+                                        <span class="fab fa-google"></span> Sign up with Google
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-info text-white" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Social Media Profiles
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <form>
+                                <div class="input-group input-group-sm mb-3 w-75">
+                                    <div class="input-group-prepend">
+                                        <a class="btn btn-social-icon btn-twitter btg-lg text-white" href="https://twitter.com/" target="_blank">
+                                            <span class="fab fa-twitter"></span>
+                                        </a>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Twitter profile">
+                                </div>
+                                <div class="input-group input-group-sm mb-3 w-75">
+                                    <div class="input-group-prepend">
+                                        <a class="btn btn-social-icon btn-facebook btg-lg text-white" href="https://facebook.com/" target="_blank">
+                                            <span class="fab fa-facebook"></span>
+                                        </a>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Facebook profile">
+                                </div>
+                                <div class="input-group input-group-sm mb-3 w-75">
+                                    <div class="input-group-prepend">
+                                        <a class="btn btn-social-icon btn-github btg-lg text-white" href="https://github.com/" target="_blank">
+                                            <span class="fab fa-github"></span>
+                                        </a>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Github profile">
+                                </div>
+                                <div class="input-group input-group-sm mb-3 w-75">
+                                    <div class="input-group-prepend">
+                                        <a class="btn btn-social-icon btn-linkedin btg-lg text-white" href="https://linkedin.com/" target="_blank">
+                                            <span class="fab fa-linkedin"></span>
+                                        </a>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Linkedin profile">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-info text-white" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Upload CV
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div id="drop" class="card-body">
+                            <input type="file" class="dropify">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3 text-center ">
+                <button id="SubButton" type="button" class="btn btn-info mt-5 font-weight-bold" style="border: 1px solid white;">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <script src="js/dropify.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
